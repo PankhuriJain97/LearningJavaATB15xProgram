@@ -10,5 +10,13 @@ public class Lab030_Type_casting_example {
 
         System.out.println(total);
         System.out.println(total2);
+
+        char a = 'A';
+        int ascii = a; //widening
+        System.out.println(ascii);
+
+        int num = 65;
+        char b = (char)num; //narrowing
+        System.out.println(b);
     }
 }
