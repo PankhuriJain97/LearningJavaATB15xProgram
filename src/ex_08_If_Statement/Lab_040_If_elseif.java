@@ -19,5 +19,6 @@ public class Lab_040_If_elseif {
         {
             System.out.println("you are 34");
         }
+        obj.close();
     }
 }
