@@ -11,7 +11,7 @@ public class P9_Guess_the_number_game {
         Random ranobj = new Random();
         int num = ranobj.nextInt(100);
 
-        System.out.println(num);
+        //System.out.println(num);
         Scanner obj = new Scanner(System.in);
 
         for(int i = 1;; i++)// use infinite loop since we dont know how many tries will it take
