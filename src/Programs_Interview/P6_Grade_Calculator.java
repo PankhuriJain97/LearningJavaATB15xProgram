@@ -9,7 +9,7 @@ public class P6_Grade_Calculator {
         int num2 = user_input("enter you second num = ");
 
         System.out.println("What operation do you want to perform? +,*,/,-,%");
-
+        // use do while loop to keep using calculator unless user says no
         char select = obj.next().charAt(0);
         switch (select)
         {
