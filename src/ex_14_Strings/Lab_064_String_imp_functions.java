@@ -9,9 +9,11 @@ public class Lab_064_String_imp_functions {
         int result = "ABC".compareTo("abc");
         int result1 = "abc".compareTo("abc");
         int result2 = "abc".compareTo("ABC");
+        int result3 = "abc".compareTo("AbC");
         System.out.println(result);
         System.out.println(result1);
         System.out.println(result2);
+        System.out.println(result3);
 
         int idx = "Java".indexOf("a"); // 1
         System.out.println(idx);
@@ -33,6 +35,9 @@ public class Lab_064_String_imp_functions {
 
         String b2 = "Java".concat("Mava"); // true
         System.out.println(b2);
+
+        String name3 = "    Sonal Harish     ";
+        System.out.println(name3.trim());
 
     }
 }
