@@ -1,7 +1,7 @@
 package ex_19_OOPs_Polymorphism.Method_overloading;
 
 public class Lab_091_Example {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         WebAutomation t1 = new WebAutomation();
         t1.openBrowser();
         t1.openBrowser("firefox");
