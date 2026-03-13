@@ -19,6 +19,7 @@ public class Pankhuri extends Cop {
         System.out.println(p2.getBullet());
 
         pj.CanIshoot(); //protected method can be accessed like this only
+        //pj.default_mod();
         System.out.println(pj.getBullet());
     }
 }
