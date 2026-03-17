@@ -7,7 +7,7 @@ public class Lab_069_Convert_to_String {
         System.out.println(str); // Output: Hello
 
         StringBuilder sb2 = new StringBuilder("Hello");
-        String str2 = sb.toString();
+        String str2 = sb2.toString();
         System.out.println(str2); // Output: Hello
     }
 }
