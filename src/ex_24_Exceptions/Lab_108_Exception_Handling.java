@@ -15,5 +15,7 @@ public class Lab_108_Exception_Handling {
             System.out.println("Divided by zero not allowed!");
         }
 
+        System.out.println("end");
+
     }
 }
