@@ -17,6 +17,9 @@ public class Lab_121_InterviewQ_Comparison {
 
         System.out.println(num3.equals(num4));
 
+        Integer value = null;
+        int value_new = value; //null pointer exception
+
     }
 
 }
