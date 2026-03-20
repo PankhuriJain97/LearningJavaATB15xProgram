@@ -18,7 +18,12 @@ public class Lab_121_InterviewQ_Comparison {
         System.out.println(num3.equals(num4));
 
         Integer value = null;
-        int value_new = value; //null pointer exception
+       // int value_new = value; //null pointer exception
+
+        Integer val = 100;
+
+        String s1 = val.toString();
+        System.out.println(s1 instanceof String);
 
     }
 
