@@ -23,6 +23,10 @@ public class Lab_132_Stack {
         System.out.println(st1.search("jain"));
         System.out.println(st1.search("new"));
 
+        st1.add(2,"element");
+
+        System.out.println(st1);
+
     }
 
 }
