@@ -9,6 +9,7 @@ public class Lab_144_Iteration {
         student1.put("phone","976543210");
         student1.put("address","BLR");
         student1.put("home_address","BTM");
+        student1.put(null,null);
 
 
         System.out.println(student1);
@@ -21,6 +22,40 @@ public class Lab_144_Iteration {
         student2.put("home_address","RG");
 
         System.out.println(student2);
+
+        System.out.println("Entry set -->" + student1.entrySet());
+
+        //iteration using for each loop
+        //when u need both keys and values
+        for(Map.Entry<String,String> item: student1.entrySet())
+        {
+            System.out.println(item.getKey());
+            System.out.println(item.getValue());
+        }
+
+        for(Map.Entry<String,String> item: student2.entrySet())
+        {
+            System.out.println(item.getKey());
+            System.out.println(item.getValue());
+        }
+
+        System.out.println("-----------------");
+
+
+        //when you need only keys
+        for(String key: student1.keySet())
+        {
+            System.out.println(key);
+        }
+
+        System.out.println("-------------------");
+
+
+        //when u need only values
+        for(String val: student2.values())
+        {
+            System.out.println(val);
+        }
 
 
 
