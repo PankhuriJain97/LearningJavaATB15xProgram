@@ -23,5 +23,27 @@ public class Lab_142_Map_02 {
         marks.put("xyz", 15);
 
         System.out.println(marks); //random order
+
+        //accessing the elements
+        System.out.println(marks.get("Pankh"));
+        System.out.println(marks.getOrDefault("Bruno", 0)); //if bruno not available print 0
+        System.out.println(marks.getOrDefault("Shivani",0));
+
+        //update
+        marks.put("Pankh",80);
+        System.out.println(marks.get("Pankh"));
+
+        //Check
+        System.out.println(marks.containsKey("xyz"));
+        System.out.println(marks.containsValue(15));
+
+        //size
+        System.out.println(marks.size());
+
+        //remove
+        marks.remove("xyz");
+        System.out.println(marks);
+
+
     }
 }
