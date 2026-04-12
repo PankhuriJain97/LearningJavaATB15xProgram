@@ -11,7 +11,7 @@ public class Lab_149_TH01 {
 
             System.out.println(i + " - " + t.getName());
             System.out.println(i + " - " + t.getPriority());
-            Thread.sleep(5000);
+            //Thread.sleep(5000);
         }
     }
 }
